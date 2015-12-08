@@ -12,6 +12,7 @@ Pour le bon fonctionnement, une connection "internet" est requise.
   
 #### Fonctionnement
   Pour faire fonctionner la caméra : `python webcam.py`
+
   Présentement, les adresse IP vers le serveur ainsi que le port de communication sont des variables qui peuvent être adapté à tout moment.
   
   Seul les yeux ainsi que le visage peuvent être détecté, si plus, simplement ajouter l'algorithme xml nécéssaire à la détection ainsi que sa capture dans le code Python.
@@ -26,7 +27,9 @@ Pour le bon fonctionnement, une connection "internet" est requise.
 
 #### Fonctionnement
   Avant l'utilisation du serveur lancer : `go get github.com/stianeikeland/go-rpio`
+  
   Pour partir le serveur : `go run server.go`
+  
   Le serveur écoute sur le port 10001, ceci peut être adapté au besoin.
   
   Pour les besoins courant, 4 variables peuvent être reçus par le serveur, sois :
